@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.profilePage {
+  padding: 40px 80px;
+}
+
+.profilePageContainer {
+  max-width: 900px;
+  margin: auto;
+}
+
+.profileImageContainer {
+height: 300px;
+width: 300px;
+padding:12px;
+display: block;
+}
+
+.profileImage {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-image:url(assets/image1.JPG);
+  background-size: cover;
+}
+
+.PostItemContainer {
+  width: 100%;
+  padding: 6px;
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  flex: 1;
+  
+}
+.PostItem{
+  height: 260px;
+  width: 260px;
+  background-size: cover;
+  flex: 1;
+}
+
+.PostGrid {
+  width: 1000px;
+  display: block;
+}
